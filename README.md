@@ -11,7 +11,7 @@ Livewire component to show records/data according to their current status on a K
 You can install the package via composer:
 
 ```bash
-composer require mantix/livewire-kanban-board
+composer require leonardo-max/livewire-kanban-board
 ```
 
 ### Requirements
