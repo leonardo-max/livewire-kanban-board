@@ -1,13 +1,13 @@
 <?php
 
-namespace leonardo-max\LivewireKanbanBoard;
+namespace LivewireKanbanBoard;
 
 use Illuminate\Support\Collection;
 use Livewire\Component;
 
 /**
  * Class LivewireKanbanBoard
- * @package leonardo-max\LivewireKanbanBoard
+ * @package LivewireKanbanBoard
  * @property boolean $sortable
  * @property boolean $sortableBetweenStatuses
  * @property string $kanbanBoardView
