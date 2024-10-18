@@ -1,10 +1,10 @@
 <?php
 
-namespace leonardo-max\LivewireKanbanBoard\Tests;
+namespace LivewireKanbanBoard\Tests;
 
 use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
-use leonardo-max\LivewireKanbanBoard\LivewireKanbanBoard;
+use LivewireKanbanBoard\LivewireKanbanBoard;
 
 class LivewireKanbanBoardTest extends TestCase {
     private function createComponent($parameters = []): Testable {
