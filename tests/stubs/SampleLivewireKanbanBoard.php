@@ -1,8 +1,8 @@
 <?php
 
-namespace leonardo-max\LivewireKanbanBoard\Tests\Stubs;
+namespace LivewireKanbanBoard\Tests\Stubs;
 
-use leonardo-max\LivewireKanbanBoard\LivewireKanbanBoard;
+use LivewireKanbanBoard\LivewireKanbanBoard;
 use Illuminate\Support\Collection;
 
 class SampleLivewireKanbanBoard extends LivewireKanbanBoard {
