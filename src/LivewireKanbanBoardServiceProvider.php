@@ -1,6 +1,6 @@
 <?php
 
-namespace leonardo-max\LivewireKanbanBoard;
+namespace LivewireKanbanBoard;
 
 use Illuminate\Support\ServiceProvider;
 
