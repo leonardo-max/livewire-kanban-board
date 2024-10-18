@@ -1,8 +1,8 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard\Tests;
+namespace leonardo-max\LivewireKanbanBoard\Tests;
 
-use Mantix\LivewireKanbanBoard\LivewireKanbanBoardServiceProvider;
+use leonardo-max\LivewireKanbanBoard\LivewireKanbanBoardServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseCase;
 
