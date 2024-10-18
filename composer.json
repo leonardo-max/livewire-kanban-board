@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "leonardo-max\\LivewireKanbanBoard\\": "src"
+            "LivewireKanbanBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "leonardo-max\\LivewireKanbanBoard\\Tests\\": "tests"
+            "LivewireKanbanBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "leonardo-max\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
+                "LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireKanbanBoard": "leonardo-max\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
+                "LivewireKanbanBoard": "LivewireKanbanBoard\\LivewireKanbanBoardFacade"
             }
         }
     }
