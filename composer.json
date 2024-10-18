@@ -1,11 +1,11 @@
 {
-    "name": "mantix/livewire-kanban-board",
+    "name": "leonardo-max/livewire-kanban-board",
     "description": "Livewire component to show models/data according to its current status on a Kanban board",
     "keywords": [
-        "mantix",
+        "leonardo-max",
         "livewire-kanban-board"
     ],
-    "homepage": "https://github.com/mantix/livewire-kanban-board",
+    "homepage": "https://github.com/leonardo-max/livewire-kanban-board",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\": "src"
+            "leonardo-max\\LivewireKanbanBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\Tests\\": "tests"
+            "leonardo-max\\LivewireKanbanBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
+                "leonardo-max\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireKanbanBoard": "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
+                "LivewireKanbanBoard": "leonardo-max\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
             }
         }
     }
